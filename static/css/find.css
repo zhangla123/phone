@@ -1,0 +1,40 @@
+.find { width: 100%; box-sizing: border-box; overflow-y: scroll; padding-bottom: 2.55rem; }
+.find header { width: 100%; height: 1.5rem; box-sizing: border-box; padding-left: 0.8rem; padding-right: 0.8rem; line-height: 1.5rem; display: flex; background-color: #fff; justify-content: space-between; color: #777; position: fixed; border-bottom: solid 1px #eee; margin-top: 0.8rem; border-bottom: none; z-index: 9; background-color: rgba(255, 255, 255, 0); }
+.find header div { margin-top: 0; }
+.find header div .yd-search .yd-search-input { padding-top: 0; }
+.find header div .yd-search .yd-search-input:before { display: none; }
+.find header input { width: 10rem; text-indent: 0.72rem; font-size: 0.64rem; }
+.find header .yd-search-input { background-color: rgba(255, 255, 255, 0); }
+.find header .yd-search-input:after { border-bottom: none; }
+.find header ul { width: 8rem; background-color: #fff; position: absolute; top: 1.2rem; left: 1.6rem; z-index: 9999; }
+.find header ul li { background-color: #eee; }
+.find nav { width: 100%; height: 14rem; padding: 0; z-index: -1; background-color: #fff; }
+.find nav .yd-slider { width: 100%; height: 9.6rem; position: relative; }
+.find nav .yd-slider .yd-slider-pagination { width: 100%; height: 0.4rem; position: absolute; top: 8.8rem; left: 0; }
+.find nav .confirmer { width: 100%; height: 3.2rem; margin-top: 1.12rem; display: flex; justify-content: space-around; }
+.find nav .confirmer li { display: flex; flex-direction: column; flex: 1.6; text-align: center; }
+.find nav .confirmer li span:nth-of-type(2) { margin-top: 0.8rem; font-size: 0.64rem; }
+.find nav .confirmer li .iconfont { position: relative; font-size: 1rem; z-index: 8; color: #fff; }
+.find nav .confirmer li .iconfont:before { width: 1.6rem; height: 1.6rem; border-radius: 0.8rem; content: ''; position: absolute; top: -0.24rem; left: -0.32rem; background-color: #FF9000; z-index: -1; }
+.find nav .confirmer li:nth-of-type(1) { flex: 1.2; }
+.find nav .confirmer li:nth-of-type(1) .iconfont:before { left: -0.32rem; background-color: royalblue; }
+.find nav .confirmer li:nth-of-type(3) { flex: 1; }
+.find nav .confirmer li:nth-of-type(3) .iconfont:before { left: -0.24rem; background-color: palevioletred; }
+.find nav .confirmer li:nth-of-type(4) { flex: 1; }
+.find nav .confirmer li:nth-of-type(4) .iconfont:before { left: -0.24rem; background-color: mediumpurple; }
+.find nav .confirmer li:nth-of-type(5) { flex: 1; }
+.find nav .confirmer li:nth-of-type(5) .iconfont:before { left: -0.24rem; background-color: #FF9000; }
+.find .main { width: 100%; box-sizing: border-box; padding-left: 0.8rem; padding-right: 0.8rem; margin-top: 0.4rem; background-color: #fff; }
+.find .main div h2 { font-size: 0.8rem; height: 2rem; display: flex; justify-content: space-between; font-weight: 500; color: #000; border-bottom: solid 1px #eee; }
+.find .main div h2 .iconfont { height: 1.2rem; width: 4.8rem; font-size: 0.72rem; color: #fff; background-color: #FF9000; text-align: center; line-height: 1.2rem; border-radius: 0.64rem; margin-top: 0.4rem; box-shadow: 1px 1px 1px #777; }
+.find .main div h2 span:nth-of-type(1) { line-height: 2rem; }
+.find .main div ul { list-style: none; }
+.find .main div ul:nth-of-type(1) { border-bottom: solid 1px #eee; margin-bottom: 0.4rem; }
+.find .main div ul h2 { border-bottom: none; display: flex; justify-content: space-between; height: 1.6rem; margin-bottom: 0.48rem; font-size: 0.72rem; }
+.find .main div ul h2 span { line-height: 1.6rem; }
+.find .main div ul h2 span:nth-of-type(1) { line-height: 1.6rem; }
+.find .main div ul h2 span:nth-of-type(2) { color: #777; }
+.find .main div ul li { font-size: 0.72rem; color: #777; display: flex; margin-top: 0.32rem; height: 1.2rem; line-height: 1.2rem; }
+.find .main div ul li .iconfont { font-size: 0.64rem; width: 1.2rem; height: 1.2rem; border-radius: 0.6rem; border: solid 1px #777; text-align: center; margin-right: 0.48rem; }
+
+/*# sourceMappingURL=find.css.map */

@@ -1,0 +1,40 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>dailygetting</title><script>document.documentElement.style.fontSize=innerWidth/15+'px';
+    	document.addEventListener('touchstart', function(event) {
+			    
+			    if (event.cancelable) {
+			        
+			        if (!event.defaultPrevented) {
+			            event.preventDefault();
+			        }
+			    }
+			}, false);</script><style type=text/css>/* 跳转页面动画 */  
+        .slide-enter,  
+        .slide_back-enter {  
+            position: absolute;  
+            width: 100%;  
+        }  
+        .slide-leave,  
+        .slide_back-leave {  
+            position: absolute;  
+            width: 100%;  
+        }  
+        .slide-enter-active,  
+        .slide_back-enter-active {  
+            transition: all 0.3s linear;  
+        }  
+        .slide-leave-active {  
+            position: absolute;  
+            transition: all 0.3s linear;  
+            transform: translate(-100%);  
+        }  
+        .slide-enter{  
+            transform: translateX(100%);  
+        }  
+        .slide_back-leave-active {  
+            position: absolute;  
+            transition: all 0.3s linear;  
+            transform: translate(100%);  
+        }  
+        .slide_back-enter {  
+            transform: translateX(-100%);  
+        }</style><link href=./static/css/app.6330c20488722f9d23ee3422132dcbd4.css rel=stylesheet></head><body><div id=app></div><transition :name=transitionName><router-view></router-view></transition><script type=text/javascript src=./static/js/manifest.979b254ca9b84024dc9a.js></script><script type=text/javascript src=./static/js/vendor.936d7dfe4a36565d6f61.js></script><script type=text/javascript src=./static/js/app.df616da29f7b9143f2ad.js></script></body></html>
